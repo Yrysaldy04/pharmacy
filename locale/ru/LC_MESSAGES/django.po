@@ -1,0 +1,610 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-26 09:36+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+#: .\product\forms.py:42 .\product\models.py:37
+#: .\templates\organization\index.html:14
+msgid "organization_title"
+msgstr "Название организации"
+
+#: .\product\forms.py:43 .\product\models.py:58
+#: .\templates\invoice\index.html:14
+msgid "datei"
+msgstr "Дата"
+
+#: .\product\forms.py:44 .\product\models.py:59
+#: .\templates\invoice\index.html:15 .\templates\invoice\read.html:14
+msgid "numb"
+msgstr "Номер накладной"
+
+#: .\product\forms.py:53 .\product\forms.py:117
+msgid "Cannot be greater than the current date"
+msgstr "Дата не может быть больше текущей даты"
+
+#: .\product\forms.py:62
+msgid "The number must be greater than zero"
+msgstr "Количество должно быть больше нуля"
+
+#: .\product\forms.py:94
+msgid "Price must be greater than zero"
+msgstr "Цена должна быть больше нуля"
+
+#: .\product\forms.py:107 .\product\models.py:250
+#: .\templates\delivery\index.html:24 .\templates\delivery\read.html:22
+#: .\templates\report\index.html:119
+msgid "movement"
+msgstr "Статус доставки"
+
+#: .\product\forms.py:108
+msgid "details"
+msgstr "Описание"
+
+#: .\product\forms.py:164
+msgid "Wrong date and time format"
+msgstr "Неправильный формат даты и времени"
+
+#: .\product\models.py:38 .\templates\organization\index.html:15
+msgid "address"
+msgstr "Адрес"
+
+#: .\product\models.py:39 .\templates\organization\index.html:16
+msgid "phone"
+msgstr "Телефон"
+
+#: .\product\models.py:77 .\product\models.py:114
+#: .\templates\category\index.html:14
+msgid "category_title"
+msgstr "Название категории"
+
+#: .\product\models.py:90 .\product\models.py:115 .\product\models.py:212
+#: .\templates\catalog\index.html:17
+msgid "catalog_title"
+msgstr "Название"
+
+#: .\product\models.py:91 .\product\models.py:116
+msgid "catalog_details"
+msgstr "Описание"
+
+#: .\product\models.py:92
+msgid "catalog_price"
+msgstr "Цена"
+
+#: .\product\models.py:93 .\product\models.py:118 .\product\models.py:144
+#: .\product\models.py:165 .\product\models.py:215
+#: .\templates\catalog\index.html:19 .\templates\catalog\read.html:28
+#: .\templates\report\index.html:88
+msgid "quantity"
+msgstr "Количество"
+
+#: .\product\models.py:94 .\product\models.py:119
+msgid "unit"
+msgstr "Единица измерения"
+
+#: .\product\models.py:95 .\product\models.py:120
+msgid "catalog_photo"
+msgstr "Фотография"
+
+#: .\product\models.py:112
+msgid "invoice_id"
+msgstr "invoice_id"
+
+#: .\product\models.py:113
+msgid "category_id"
+msgstr "category_id"
+
+#: .\product\models.py:117 .\product\models.py:143 .\product\models.py:164
+#: .\product\models.py:213 .\templates\catalog\index.html:18
+#: .\templates\catalog\list.html:62 .\templates\catalog\list.html:64
+#: .\templates\report\index.html:49 .\templates\report\index.html:87
+msgid "price"
+msgstr "Цена"
+
+#: .\product\models.py:121 .\product\models.py:216
+#: .\templates\report\index.html:89
+msgid "total"
+msgstr "Сумма"
+
+#: .\product\models.py:122
+msgid "sale_quantity"
+msgstr "Количество проданного"
+
+#: .\product\models.py:123 .\templates\report\index.html:51
+msgid "available"
+msgstr "Доступнне количество"
+
+#: .\product\models.py:124
+msgid "avg_rating"
+msgstr "Средняя оценка"
+
+#: .\product\models.py:141
+msgid "basketday"
+msgstr "Дата"
+
+#: .\product\models.py:162 .\product\models.py:209
+#: .\templates\delivery\list.html:19 .\templates\report\index.html:84
+#: .\templates\report\index.html:121 .\templates\report\index.html:151
+#: .\templates\review\index.html:13
+msgid "saleday"
+msgstr "Дата продажи"
+
+#: .\product\models.py:167 .\product\models.py:218
+#: .\templates\catalog\basket.html:154 .\templates\delivery\list.html:22
+msgid "delivery_address"
+msgstr "Адрес доставки"
+
+#: .\product\models.py:168 .\product\models.py:219
+#: .\templates\catalog\details.html:42 .\templates\index.html:198
+#: .\templates\report\index.html:154 .\templates\review\index.html:15
+msgid "rating"
+msgstr "Оценка"
+
+#: .\product\models.py:169 .\product\models.py:220
+#: .\templates\report\index.html:155 .\templates\review\index.html:16
+msgid "review_details"
+msgstr "Текст отзыва"
+
+#: .\product\models.py:196 .\product\models.py:197 .\product\models.py:243
+msgid "Application accepted for processing"
+msgstr "Заявка принята к рассмотрению"
+
+#: .\product\models.py:206 .\templates\delivery\list.html:20
+#: .\templates\report\index.html:85 .\templates\report\index.html:122
+#: .\templates\report\index.html:152
+msgid "username"
+msgstr "Пользователь"
+
+#: .\product\models.py:207
+msgid "first_name"
+msgstr "Имя"
+
+#: .\product\models.py:208
+msgid "last_name"
+msgstr "Фамилия"
+
+#: .\product\models.py:210
+msgid "catalog_id"
+msgstr "catalog_id"
+
+#: .\product\models.py:211 .\templates\catalog\list.html:20
+#: .\templates\catalog\list.html:52 .\templates\catalog\list.html:54
+#: .\templates\category\create.html:5 .\templates\category\edit.html:5
+#: .\templates\category\read.html:5 .\templates\report\index.html:47
+msgid "category"
+msgstr "Категория"
+
+#: .\product\models.py:214 .\templates\report\index.html:50
+msgid "photo"
+msgstr "Фотография"
+
+#: .\product\models.py:217
+msgid "user_id"
+msgstr "user_id"
+
+#: .\product\models.py:221 .\templates\delivery\list.html:23
+msgid "final"
+msgstr "Текущий статус"
+
+#: .\product\models.py:244
+msgid "Goods in transit"
+msgstr "Товар в пути"
+
+#: .\product\models.py:245
+msgid "Stock item"
+msgstr "Товар на складе"
+
+#: .\product\models.py:246
+msgid "The application is closed, the goods have been delivered"
+msgstr "Заявка закрыта, товар доставлен"
+
+#: .\product\models.py:249 .\templates\delivery\index.html:23
+#: .\templates\delivery\read.html:18 .\templates\report\index.html:118
+msgid "deliveryday"
+msgstr "Дата"
+
+#: .\product\models.py:251 .\templates\delivery\index.html:25
+#: .\templates\delivery\read.html:26 .\templates\report\index.html:120
+msgid "delivery_details"
+msgstr "Детали доставки"
+
+#: .\product\models.py:268 .\templates\question\index.html:13
+#: .\templates\question\list.html:13
+msgid "date_question"
+msgstr "Дата"
+
+#: .\product\models.py:271 .\templates\catalog\details.html:62
+#: .\templates\question\create.html:6 .\templates\question\edit.html:5
+#: .\templates\question\edit.html:25 .\templates\question\index.html:15
+#: .\templates\question\list.html:15 .\templates\question\read.html:5
+msgid "question"
+msgstr "Вопрос"
+
+#: .\product\models.py:272 .\templates\question\index.html:16
+#: .\templates\question\list.html:16
+msgid "answer"
+msgstr "Ответ"
+
+#: .\product\models.py:286 .\templates\news\index.html:14
+msgid "daten"
+msgstr "Дата"
+
+#: .\product\models.py:287 .\templates\news\index.html:15
+msgid "news_title"
+msgstr "Заголовок"
+
+#: .\product\models.py:288
+msgid "news_details"
+msgstr "Детали"
+
+#: .\product\models.py:289
+msgid "news_photo"
+msgstr "Фотография"
+
+#: .\product\views.py:481
+msgid "Item added to basket"
+msgstr "Товар добавлен в корзину"
+
+#: .\product\views.py:638
+msgid "pickup"
+msgstr "Адрес"
+
+#: .\templates\base.html:44
+msgid "Home"
+msgstr "Главная"
+
+#: .\templates\base.html:46 .\templates\catalog\create.html:6
+#: .\templates\catalog\edit.html:6 .\templates\question\index.html:14
+#: .\templates\question\list.html:14 .\templates\report\index.html:25
+#: .\templates\report\index.html:40 .\templates\review\index.html:14
+msgid "catalog"
+msgstr "Каталог"
+
+#: .\templates\base.html:49 .\templates\base.html:76
+#: .\templates\index.html:209 .\templates\news\index.html:3
+#: .\templates\news\index.html:6 .\templates\news\list.html:4
+#: .\templates\news\list.html:8
+msgid "newss"
+msgstr "Новости"
+
+#: .\templates\base.html:53 .\templates\base.html:73
+#: .\templates\question\index.html:4 .\templates\question\index.html:7
+#: .\templates\question\list.html:4 .\templates\question\list.html:7
+msgid "questions"
+msgstr "Вопросы"
+
+#: .\templates\base.html:57
+msgid "contacts"
+msgstr "Контакты"
+
+#: .\templates\base.html:66 .\templates\category\index.html:6
+msgid "categorys"
+msgstr "Категории"
+
+#: .\templates\base.html:68 .\templates\organization\index.html:3
+#: .\templates\organization\index.html:6
+msgid "organizations"
+msgstr "Организации"
+
+#: .\templates\base.html:69 .\templates\invoice\index.html:3
+#: .\templates\invoice\index.html:6
+msgid "invoices"
+msgstr "Приходные накладные"
+
+#: .\templates\base.html:71 .\templates\catalog\buy.html:50
+#: .\templates\delivery\create.html:6 .\templates\delivery\edit.html:6
+#: .\templates\delivery\index.html:16 .\templates\delivery\list.html:41
+#: .\templates\delivery\read.html:6 .\templates\report\index.html:31
+#: .\templates\report\index.html:111
+msgid "delivery"
+msgstr "Доставка"
+
+#: .\templates\base.html:72 .\templates\index.html:189
+#: .\templates\report\index.html:34 .\templates\report\index.html:144
+#: .\templates\review\index.html:4 .\templates\review\index.html:7
+msgid "reviews"
+msgstr "Отзывы"
+
+#: .\templates\base.html:74
+msgid "reports"
+msgstr "Отчеты"
+
+#: .\templates\base.html:78 .\templates\catalog\buy.html:4
+#: .\templates\catalog\buy.html:7
+msgid "My purchases"
+msgstr "Мои покупки"
+
+#: .\templates\base.html:79 .\templates\catalog\basket.html:4
+#: .\templates\catalog\basket.html:7
+msgid "Basket"
+msgstr "Корзина"
+
+#: .\templates\base.html:83
+msgid "My account"
+msgstr "Моя учетная запись"
+
+#: .\templates\base.html:84
+msgid "Change password"
+msgstr "Изменить пароль"
+
+#: .\templates\base.html:86
+msgid "Log out"
+msgstr "Выйти"
+
+#: .\templates\base.html:106
+msgid "Log In"
+msgstr "Войти"
+
+#: .\templates\base.html:107
+msgid "Sign up"
+msgstr "Зарегистрироваться"
+
+#: .\templates\catalog\basket.html:110 .\templates\catalog\index.html:43
+#: .\templates\category\index.html:26 .\templates\delivery\index.html:43
+#: .\templates\invoice\index.html:40 .\templates\news\index.html:32
+#: .\templates\organization\index.html:36 .\templates\question\index.html:38
+#: .\templates\review\index.html:35
+msgid "Delete"
+msgstr "Удалить"
+
+#: .\templates\catalog\basket.html:124 .\templates\catalog\basket.html:140
+msgid "Basket total"
+msgstr "Всего"
+
+#: .\templates\catalog\basket.html:128
+msgid "Go payment"
+msgstr "Перейти к оплате"
+
+#: .\templates\catalog\basket.html:139
+msgid "Payment method"
+msgstr "Метод оплаты"
+
+#: .\templates\catalog\basket.html:147
+msgid "Card"
+msgstr "Банковской картой"
+
+#: .\templates\catalog\basket.html:151
+msgid "In cash"
+msgstr "Наличными курьеру"
+
+#: .\templates\catalog\basket.html:164
+msgid "Card number"
+msgstr "Номер карты"
+
+#: .\templates\catalog\basket.html:171
+msgid "Card holder"
+msgstr "Владелец карты"
+
+#: .\templates\catalog\basket.html:175
+msgid "Expiration date"
+msgstr "Срок годности"
+
+#: .\templates\catalog\basket.html:188
+msgid "Buy"
+msgstr "Купить"
+
+#: .\templates\catalog\basket.html:189 .\templates\catalog\create.html:14
+#: .\templates\catalog\details.html:31 .\templates\catalog\edit.html:14
+#: .\templates\catalog\edit.html:15 .\templates\catalog\read.html:32
+#: .\templates\category\create.html:13 .\templates\category\edit.html:13
+#: .\templates\category\read.html:18 .\templates\delivery\create.html:14
+#: .\templates\delivery\edit.html:14 .\templates\delivery\index.html:60
+#: .\templates\delivery\index.html:61 .\templates\delivery\read.html:35
+#: .\templates\invoice\create.html:14 .\templates\invoice\edit.html:14
+#: .\templates\invoice\read.html:20 .\templates\news\create.html:14
+#: .\templates\news\edit.html:14 .\templates\news\read.html:29
+#: .\templates\organization\create.html:14
+#: .\templates\organization\edit.html:14 .\templates\organization\read.html:20
+#: .\templates\question\create.html:38 .\templates\question\create.html:39
+#: .\templates\question\edit.html:38 .\templates\question\read.html:27
+#: .\templates\review\edit.html:15
+msgid "Back"
+msgstr "Назад"
+
+#: .\templates\catalog\buy.html:42
+msgid "Change Review"
+msgstr "Изменить отзыв"
+
+#: .\templates\catalog\buy.html:42 .\templates\catalog\details.html:36
+#: .\templates\review\edit.html:6
+msgid "review"
+msgstr "Отзыв"
+
+#: .\templates\catalog\create.html:3 .\templates\catalog\index.html:9
+#: .\templates\category\create.html:3 .\templates\category\index.html:7
+#: .\templates\delivery\create.html:3 .\templates\delivery\index.html:27
+#: .\templates\delivery\index.html:54 .\templates\invoice\create.html:3
+#: .\templates\invoice\index.html:7 .\templates\news\create.html:3
+#: .\templates\news\index.html:9 .\templates\organization\create.html:3
+#: .\templates\organization\index.html:7 .\templates\question\create.html:3
+msgid "Add"
+msgstr "Добавить"
+
+#: .\templates\catalog\create.html:13 .\templates\catalog\edit.html:13
+#: .\templates\category\create.html:12 .\templates\category\edit.html:12
+#: .\templates\delivery\create.html:13 .\templates\delivery\edit.html:13
+#: .\templates\invoice\create.html:13 .\templates\invoice\edit.html:13
+#: .\templates\news\create.html:13 .\templates\news\edit.html:13
+#: .\templates\organization\create.html:13
+#: .\templates\organization\edit.html:13 .\templates\question\create.html:37
+#: .\templates\question\edit.html:37 .\templates\review\edit.html:14
+msgid "Save"
+msgstr "Сохранить"
+
+#: .\templates\catalog\details.html:4 .\templates\catalog\list.html:124
+msgid "Catalog details"
+msgstr "Описание"
+
+#: .\templates\catalog\details.html:57
+msgid "No reviews yet"
+msgstr "Отзывов пока нет"
+
+#: .\templates\catalog\details.html:63
+msgid "Ask"
+msgstr "Вопрос"
+
+#: .\templates\catalog\details.html:84
+msgid "No questions yet"
+msgstr "Вопросов пока нет"
+
+#: .\templates\catalog\edit.html:3 .\templates\catalog\index.html:41
+#: .\templates\category\edit.html:3 .\templates\category\index.html:24
+#: .\templates\delivery\edit.html:3 .\templates\delivery\index.html:41
+#: .\templates\invoice\edit.html:3 .\templates\invoice\index.html:38
+#: .\templates\news\edit.html:3 .\templates\news\index.html:30
+#: .\templates\organization\edit.html:3 .\templates\organization\index.html:34
+#: .\templates\question\edit.html:3 .\templates\question\index.html:36
+#: .\templates\review\edit.html:3
+msgid "Change"
+msgstr "Изменить"
+
+#: .\templates\catalog\index.html:4 .\templates\catalog\index.html:8
+#: .\templates\invoice\index.html:17 .\templates\invoice\index.html:34
+msgid "catalogs"
+msgstr "Каталог"
+
+#: .\templates\catalog\index.html:16
+msgid "catalog_category"
+msgstr "Категория"
+
+#: .\templates\catalog\index.html:42 .\templates\catalog\read.html:4
+#: .\templates\category\index.html:25 .\templates\category\read.html:3
+#: .\templates\delivery\index.html:42 .\templates\delivery\read.html:3
+#: .\templates\invoice\index.html:39 .\templates\invoice\read.html:3
+#: .\templates\news\index.html:31 .\templates\news\read.html:4
+#: .\templates\organization\index.html:35 .\templates\organization\read.html:3
+#: .\templates\question\index.html:37 .\templates\question\read.html:3
+msgid "View"
+msgstr "Просмотреть"
+
+#: .\templates\catalog\list.html:4 .\templates\catalog\list.html:7
+msgid "Catalog list"
+msgstr "Каталог"
+
+#: .\templates\catalog\list.html:14 .\templates\news\list.html:14
+msgid "Search"
+msgstr "Поиск"
+
+#: .\templates\catalog\list.html:37 .\templates\catalog\list.html:57
+#: .\templates\catalog\list.html:59 .\templates\delivery\list.html:21
+#: .\templates\report\index.html:48 .\templates\report\index.html:86
+#: .\templates\report\index.html:123 .\templates\report\index.html:153
+msgid "title"
+msgstr "Название"
+
+#: .\templates\catalog\list.html:47
+msgid "Sort"
+msgstr "Сортировка"
+
+#: .\templates\catalog\list.html:73
+msgid "desc"
+msgstr "по убыванию"
+
+#: .\templates\catalog\list.html:80 .\templates\report\index.html:17
+msgid "Go"
+msgstr "Выполнить"
+
+#: .\templates\catalog\list.html:81 .\templates\news\list.html:15
+#: .\templates\report\index.html:18
+msgid "Reset"
+msgstr "Сброс"
+
+#: .\templates\catalog\list.html:106 .\templates\index.html:177
+#: .\templates\report\index.html:52
+msgid "Avg Rating"
+msgstr "Средняя оценка"
+
+#: .\templates\catalog\list.html:115
+msgid "Add to basket"
+msgstr "Добавить в корзину"
+
+#: .\templates\category\index.html:3
+msgid "List"
+msgstr "Список"
+
+#: .\templates\contact.html:7
+msgid "Contacts"
+msgstr "Контакты"
+
+#: .\templates\delivery\index.html:3 .\templates\delivery\list.html:3
+#: .\templates\delivery\list.html:7
+msgid "deliverys"
+msgstr "Доставки"
+
+#: .\templates\delivery\index.html:7 .\templates\delivery\list.html:6
+#: .\templates\report\index.html:28 .\templates\report\index.html:77
+msgid "Sale"
+msgstr "Продажа"
+
+#: .\templates\delivery\read.html:14
+msgid "delivery_title"
+msgstr "Статус"
+
+#: .\templates\index.html:4 .\templates\registration\logged_out.html:4
+#: .\templates\registration\login.html:4
+#: .\templates\registration\password_change_done.html:3
+#: .\templates\registration\password_change_form.html:3
+#: .\templates\registration\password_reset_complete.html:4
+#: .\templates\registration\password_reset_confirm.html:4
+#: .\templates\registration\password_reset_done.html:4
+#: .\templates\registration\password_reset_form.html:4
+#: .\templates\registration\register_done.html:4
+msgid "App Name"
+msgstr "Pharmacy"
+
+#: .\templates\index.html:149
+msgid "Welcome"
+msgstr "Добро пожаловать"
+
+#: .\templates\index.html:163 .\templates\index.html:183
+msgid "Full Catalog"
+msgstr "Полный каталог"
+
+#: .\templates\index.html:242
+msgid "all newss"
+msgstr "Все новости"
+
+#: .\templates\invoice\create.html:6 .\templates\invoice\edit.html:6
+#: .\templates\invoice\read.html:6
+msgid "invoice"
+msgstr "Приходная накладная"
+
+#: .\templates\invoice\index.html:16 .\templates\organization\create.html:6
+#: .\templates\organization\edit.html:6 .\templates\organization\read.html:6
+msgid "organization"
+msgstr "Организация"
+
+#: .\templates\news\create.html:6 .\templates\news\edit.html:6
+#: .\templates\news\read.html:7
+msgid "news"
+msgstr "Новость"
+
+#: .\templates\question\index.html:13
+msgid "name"
+msgstr "Имя"
+
+#: .\templates\report\index.html:4 .\templates\report\index.html:7
+msgid "Reports"
+msgstr "Отчеты"
+
+#: .\templates\report\index.html:11
+msgid "Date range"
+msgstr "Диапазон дат"
+
+#: .\templates\report\index.html:105
+msgid "total_sale"
+msgstr "Количество проданого"

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{% endblock title %}
+{% block header %}{% endblock header %} 
+{% block content %}
+<div class="div-width-100-text-center">
+	<h3>{% trans "Contacts" %}</h3>
+</div>
+<div class="row">
+	<div class="col-md-3">
+		<br>
+		<h2 align="center">Аптека «PHARMACY»</h2>
+		<address>
+			<p>🏙️Астана<br>
+			🏫ул. Мухтара Ауэзова 40:<br> 
+			<a href="tel:87012358741">+7-701235-8741</a>
+		</address>				
+	</div>
+	<div class="col-md-9" style="position:relative;overflow:hidden;">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2501.044855994525!2d71.41809127660059!3d51.18139617174106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424580d2bcdffec1%3A0x48ea5d8ce36d5978!2z0YPQuy4g0JzRg9GF0YLQsNGA0LAg0JDRg9GN0LfQvtCy0LAgNDAsINCQ0YHRgtCw0L3QsCAwMTAwMDA!5e0!3m2!1sru!2skz!4v1714141546018!5m2!1sru!2skz" width="100%" height="500px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+	</div>
+</div>
+{% endblock content %}
